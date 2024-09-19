@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(rgb(41, 182, 151), rgb(64, 64, 255));
+    height: 100%;
+}
+.body{
+    display: flex;
+    /* background: linear-gradient(rgb(41, 182, 151), rgb(64, 64, 255)); */
+}
+.center_body{
+    width: 60%;
+    height: 100%;
+}
+.left_body{
+width: 20%;
+height: 100%;
+}
+.right_body{
+    width: 20%;
+    height: 100%;
+    }
+.header{
+    display: flex;
+    justify-content:space-between;
+    /* width: 50%;
+    height: 100%; */
+}
+.poisk{
+    width: 500px;
+    height: 70px;
+    border-radius: 50px;
+}
+.krug{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krug img{
+    width: 30px;
+    height: 30px;
+}
+.body2{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+/* .body2 img{
+    margin-left: 190%;
+} */
+.gradus{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.gradus h1{
+font-size: 50px;
+color: aliceblue;
+margin-bottom: 0px;
+}
+.gradus h2{
+    font-size: 40px;
+color: aliceblue;
+/* margin-bottom: 50px; */
+
+}
+.gradus h3{
+    font-size: 30px;
+color: aliceblue;
+/* margin-bottom: 0px; */
+position: absolute;
+bottom: 100px;
+}
+.pokazateli{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+   display: flex; 
+   align-items: center;
+}
+.p1 img{
+    width: 90px;
+    height: 90px;
+}
+.p1 .p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 15px;
+}
+.p2{
+    font-size: 20px;
+}
